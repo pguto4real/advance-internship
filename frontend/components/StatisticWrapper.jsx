@@ -35,7 +35,7 @@ function StatisticWrapper({ datas, seconds }) {
         >
             {
                 datas.map((data, index) => (
-                    <div key={index} activeIndexs={index} className={`statistics__heading ${activeIndex === index && "statistics__heading--active"}`}>{data}</div>
+                    <div key={index}  className={`statistics__heading ${activeIndex === index && "statistics__heading--active"}`}>{data}</div>
                 ))
             }
 
